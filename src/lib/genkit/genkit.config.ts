@@ -20,9 +20,12 @@ import { vertexAI } from '@genkit-ai/vertexai';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  // ...
-  projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-  // ...
+  apiKey: "AIzaSyAV3oeRg1LfQ47kccjqVmNUMnOeq0PLXEQ",
+  authDomain: "ai-travel-planner-icl.firebaseapp.com",
+  projectId: "ai-travel-planner-icl",
+  storageBucket: "ai-travel-planner-icl.firebasestorage.app",
+  messagingSenderId: "73544970578",
+  appId: "1:73544970578:web:2bd04e58b4e1e43d920a8b"
 };
 
 export const getProjectId = () => firebaseConfig.projectId;
